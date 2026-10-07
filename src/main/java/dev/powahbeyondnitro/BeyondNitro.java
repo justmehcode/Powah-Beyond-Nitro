@@ -30,6 +30,9 @@ public final class BeyondNitro {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ID);
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ID);
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ID);
+    public static final DeferredRegister<net.minecraft.world.item.crafting.RecipeSerializer<?>> RECIPE_SERIALIZERS = DeferredRegister.create(Registries.RECIPE_SERIALIZER, ID);
+    public static final java.util.function.Supplier<net.minecraft.world.item.crafting.SimpleCraftingRecipeSerializer<ResetEnergyItemRecipe>> RESET_RECIPE =
+            RECIPE_SERIALIZERS.register("reset_energy_item", () -> new net.minecraft.world.item.crafting.SimpleCraftingRecipeSerializer<>(ResetEnergyItemRecipe::new));
     public static final Map<String, DeferredBlock<Block>> MACHINES = new LinkedHashMap<>();
     public static final Map<String, DeferredItem<Item>> MATERIALS = new LinkedHashMap<>();
     public static final Map<String, DeferredBlock<Block>> CRYSTAL_BLOCKS = new LinkedHashMap<>();
@@ -92,6 +95,7 @@ public final class BeyondNitro {
         BLOCKS.register(bus);
         ITEMS.register(bus);
         TABS.register(bus);
+        RECIPE_SERIALIZERS.register(bus);
         bus.addListener(this::extendBlockEntityTypes);
         bus.addListener(this::registerItemEnergy);
     }

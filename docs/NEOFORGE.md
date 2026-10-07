@@ -15,7 +15,7 @@ Expand Powah's endgame with **Aurion → Viberion → Oblivion → Singularity**
 
 56 blocks across four tiers, plus matching crystals, capacitors and batteries. Tier scaling is 4x, 16x, 64x and 256x relative to matching Nitro settings. Native Powah machine behavior and menus remain familiar.
 
-Four Energizing Orb recipes produce crystals using Allthemodium metals. Eighty crafting recipes extend Powah's existing patterns, including cable batches, reactor upgrades, Ender devices and reversible 9:1 crystal storage.
+Four Energizing Orb recipes produce crystals using Allthemodium metals. There are 72 standard crafting recipes and one dynamic reset recipe covering all upgraded machines, batteries and Nitro inputs. Powah's existing Nitro Ender resets remain available.
 
 ## Install
 
@@ -25,7 +25,7 @@ The namespace changed from `beyondnitro` to `powahbeyondnitro`; no old-world mig
 
 ## Notes
 
-Empty machines and batteries before upgrades. Ender devices use Powah's shared network. Actual generation depends on fuel, coolant, sunlight and other native conditions. Integer FE throughput limits apply.
+Single-source upgrades preserve saved item data. Ambiguous merges and data-bearing batch recipes are blocked. Craft a machine or battery alone to reset it, intentionally deleting its stored contents. Ender resets clear the item's configuration, not Powah's shared network storage. Actual generation depends on native conditions. Integer FE throughput limits apply.
 
 Independent addon; not an official NeoForge, Powah or All the Mods project.
 

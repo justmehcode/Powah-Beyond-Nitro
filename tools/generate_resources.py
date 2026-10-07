@@ -141,6 +141,7 @@ for index, (tier, color) in enumerate(TIERS):
         ingredients += ['powahbeyondnitro:crystal_oblivion','allthemodium:allthemodium_ingot','allthemodium:vibranium_ingot','allthemodium:unobtainium_ingot','minecraft:nether_star']
     orb(f'crystal_{tier}', ingredients, energy)
     for source in (UPSTREAM.parents[1]/'generated/resources/data/powah/recipe/crafting').glob('*nitro*.json'):
+        if source.name in ('ender_cell_nitro_2.json','ender_gate_nitro_2.json'): continue
         recipe = crafting_remap(json.loads(source.read_text()), tier, previous, ns)
         write_json(f'data/powahbeyondnitro/recipe/crafting/{source.name.replace("nitro",tier)}',recipe)
     for source in (UPSTREAM/'assets/powah/textures').rglob('*nitro*.png'):
@@ -180,7 +181,9 @@ for index, (tier, color) in enumerate(TIERS):
     tile = tile.resize((96,96),Image.Resampling.NEAREST)
     preview.paste(tile,(index*192+48,218),tile)
 write_json('assets/powahbeyondnitro/lang/en_us.json',lang)
+write_json('data/powahbeyondnitro/recipe/crafting/reset_energy_item.json', {
+    'type':'powahbeyondnitro:reset_energy_item', 'category':'misc'})
 for tag in ('mineable/pickaxe','needs_diamond_tool'):
     write_json(f'data/minecraft/tags/block/{tag}.json',{'replace':False,'values':blocks})
 preview.save(ROOT/'art/texture-preview.png')
-print(f'Generated 4 Orb recipes and 80 native-style crafting recipes; 56 blocks, 12 items; recoloured {texture_count} original textures.')
+print(f'Generated 4 Orb recipes, 72 standard crafting recipes and one dynamic reset recipe; recoloured {texture_count} original textures.')

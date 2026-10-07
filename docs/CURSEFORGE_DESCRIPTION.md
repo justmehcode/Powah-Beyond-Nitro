@@ -21,7 +21,7 @@ Requires **Powah! (Rearchitected) 6.2.10**, **Allthemodium**, and their normal d
 
 ## Good to know
 
-Power values scale from your Powah configuration and remain subject to FE API limits. Empty stored energy and inventories before crafting machine upgrades. Reactors still require 36 blocks to assemble.
+Power values scale from your Powah configuration and remain subject to FE API limits. Single-source upgrades preserve saved item data; ambiguous merges and data-bearing batch recipes are blocked. Craft a machine or battery alone to reset it to an empty item, intentionally deleting its stored contents. Reactors still require 36 blocks to assemble.
 
 Mod ID: `powahbeyondnitro`. Older development builds used `beyondnitro`; no automatic world migration is included. Use a fresh world for the renamed version.
 
