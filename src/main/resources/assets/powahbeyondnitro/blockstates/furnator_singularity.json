@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "powahbeyondnitro:block/furnator_singularity"
+    },
+    "facing=south": {
+      "model": "powahbeyondnitro:block/furnator_singularity",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "powahbeyondnitro:block/furnator_singularity",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "powahbeyondnitro:block/furnator_singularity",
+      "y": 90
+    },
+    "facing=up": {
+      "model": "lollipop:block/empty"
+    },
+    "facing=down": {
+      "model": "lollipop:block/empty"
+    }
+  }
+}

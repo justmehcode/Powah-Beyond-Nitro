@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:capacitor_aurion"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "f": {
+      "item": "powah:magmator_nitro"
+    },
+    "g": {
+      "item": "powahbeyondnitro:crystal_aurion"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "cdc",
+    "gfg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:magmator_aurion"
+  }
+}

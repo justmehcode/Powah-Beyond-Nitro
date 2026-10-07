@@ -1,0 +1,25 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+    {
+      "item": "powahbeyondnitro:crystal_viberion"
+    },
+    {
+      "item": "allthemodium:unobtainium_ingot"
+    },
+    {
+      "item": "allthemodium:unobtainium_ingot"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    }
+  ],
+  "energy": 1600000000,
+  "result": {
+    "id": "powahbeyondnitro:crystal_oblivion",
+    "count": 1
+  }
+}

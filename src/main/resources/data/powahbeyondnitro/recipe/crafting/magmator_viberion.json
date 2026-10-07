@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:capacitor_viberion"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "f": {
+      "item": "powahbeyondnitro:magmator_aurion"
+    },
+    "g": {
+      "item": "powahbeyondnitro:crystal_viberion"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "cdc",
+    "gfg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:magmator_viberion"
+  }
+}

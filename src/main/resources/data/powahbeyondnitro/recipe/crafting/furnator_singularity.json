@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:capacitor_singularity"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "f": {
+      "item": "powahbeyondnitro:furnator_oblivion"
+    },
+    "g": {
+      "item": "powahbeyondnitro:crystal_singularity"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "cdc",
+    "gfg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:furnator_singularity"
+  }
+}

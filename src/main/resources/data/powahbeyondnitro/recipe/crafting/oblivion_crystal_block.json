@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "powahbeyondnitro:crystal_oblivion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_oblivion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_oblivion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_oblivion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_oblivion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_oblivion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_oblivion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_oblivion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_oblivion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:oblivion_crystal_block"
+  }
+}

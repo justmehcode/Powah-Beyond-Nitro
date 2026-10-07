@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "top=false": {
+      "model": "powahbeyondnitro:block/player_transmitter_singularity"
+    },
+    "top=true": {
+      "model": "powahbeyondnitro:block/player_transmitter_singularity_top"
+    }
+  }
+}

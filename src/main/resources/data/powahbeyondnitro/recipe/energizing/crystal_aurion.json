@@ -1,0 +1,22 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+    {
+      "item": "powah:crystal_nitro"
+    },
+    {
+      "item": "allthemodium:allthemodium_ingot"
+    },
+    {
+      "item": "allthemodium:allthemodium_ingot"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "energy": 100000000,
+  "result": {
+    "id": "powahbeyondnitro:crystal_aurion",
+    "count": 1
+  }
+}

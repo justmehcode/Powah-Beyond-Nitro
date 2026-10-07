@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "powahbeyondnitro:block/energizing_rod_oblivion",
+      "x": 180
+    },
+    "facing=down": {
+      "model": "powahbeyondnitro:block/energizing_rod_oblivion"
+    },
+    "facing=south": {
+      "model": "powahbeyondnitro:block/energizing_rod_oblivion",
+      "x": 90
+    },
+    "facing=north": {
+      "model": "powahbeyondnitro:block/energizing_rod_oblivion",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "powahbeyondnitro:block/energizing_rod_oblivion",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west": {
+      "model": "powahbeyondnitro:block/energizing_rod_oblivion",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

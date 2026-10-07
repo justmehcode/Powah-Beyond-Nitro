@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powah:dielectric_casing"
+    },
+    "i": {
+      "item": "powahbeyondnitro:capacitor_singularity"
+    },
+    "p": {
+      "item": "powahbeyondnitro:player_transmitter_oblivion"
+    },
+    "r": {
+      "item": "powah:dielectric_rod"
+    }
+  },
+  "pattern": [
+    " p ",
+    "ici",
+    " r "
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:player_transmitter_singularity"
+  }
+}

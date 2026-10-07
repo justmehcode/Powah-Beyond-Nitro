@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "powahbeyondnitro:capacitor_aurion"
+    },
+    "c": {
+      "item": "powah:dielectric_casing"
+    },
+    "h": {
+      "item": "powah:energizing_rod_nitro"
+    },
+    "q": {
+      "tag": "c:storage_blocks/quartz"
+    }
+  },
+  "pattern": [
+    " q ",
+    "bcb",
+    " h "
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:energizing_rod_aurion"
+  }
+}

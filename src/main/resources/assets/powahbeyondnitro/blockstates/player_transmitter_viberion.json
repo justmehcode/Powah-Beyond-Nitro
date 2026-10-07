@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "top=false": {
+      "model": "powahbeyondnitro:block/player_transmitter_viberion"
+    },
+    "top=true": {
+      "model": "powahbeyondnitro:block/player_transmitter_viberion_top"
+    }
+  }
+}

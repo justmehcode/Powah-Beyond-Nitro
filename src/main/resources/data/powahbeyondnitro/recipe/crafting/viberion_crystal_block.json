@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "powahbeyondnitro:crystal_viberion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_viberion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_viberion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_viberion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_viberion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_viberion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_viberion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_viberion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_viberion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:viberion_crystal_block"
+  }
+}

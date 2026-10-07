@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:capacitor_oblivion"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "f": {
+      "item": "powahbeyondnitro:magmator_viberion"
+    },
+    "g": {
+      "item": "powahbeyondnitro:crystal_oblivion"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "cdc",
+    "gfg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:magmator_oblivion"
+  }
+}

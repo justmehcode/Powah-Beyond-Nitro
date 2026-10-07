@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:capacitor_singularity"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "e": {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    "p": {
+      "item": "powahbeyondnitro:solar_panel_oblivion"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "cdc",
+    "eee"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:solar_panel_singularity"
+  }
+}

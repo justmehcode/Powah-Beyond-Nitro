@@ -1,0 +1,25 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+    {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    {
+      "item": "allthemodium:vibranium_ingot"
+    },
+    {
+      "item": "allthemodium:vibranium_ingot"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "energy": 400000000,
+  "result": {
+    "id": "powahbeyondnitro:crystal_viberion",
+    "count": 1
+  }
+}

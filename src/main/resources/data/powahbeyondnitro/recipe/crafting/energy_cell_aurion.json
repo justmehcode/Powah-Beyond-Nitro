@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    "c": {
+      "item": "powah:energy_cell_nitro"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "n": {
+      "item": "powahbeyondnitro:capacitor_aurion"
+    }
+  },
+  "pattern": [
+    "bnb",
+    "cdc",
+    "bnb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:energy_cell_aurion"
+  }
+}

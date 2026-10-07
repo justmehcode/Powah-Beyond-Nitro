@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "powahbeyondnitro:block/ender_gate_oblivion",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "powahbeyondnitro:block/ender_gate_oblivion",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "powahbeyondnitro:block/ender_gate_oblivion",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "powahbeyondnitro:block/ender_gate_oblivion"
+    },
+    "facing=east": {
+      "model": "powahbeyondnitro:block/ender_gate_oblivion",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "powahbeyondnitro:block/ender_gate_oblivion",
+      "y": 270
+    }
+  }
+}

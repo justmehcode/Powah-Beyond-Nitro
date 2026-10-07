@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_aurion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:aurion_crystal_block"
+  }
+}

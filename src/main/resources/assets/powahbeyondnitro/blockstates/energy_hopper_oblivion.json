@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "powahbeyondnitro:block/energy_hopper_oblivion",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "powahbeyondnitro:block/energy_hopper_oblivion",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "powahbeyondnitro:block/energy_hopper_oblivion",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "powahbeyondnitro:block/energy_hopper_oblivion"
+    },
+    "facing=east": {
+      "model": "powahbeyondnitro:block/energy_hopper_oblivion",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "powahbeyondnitro:block/energy_hopper_oblivion",
+      "y": 270
+    }
+  }
+}

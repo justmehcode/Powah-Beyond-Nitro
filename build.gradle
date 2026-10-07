@@ -1,0 +1,39 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = mod_version
+group = 'dev.powahbeyondnitro'
+base { archivesName = 'powah-beyond-nitro' }
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar() }
+repositories {
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    maven { url = 'https://maven.shedaniel.me'; content { includeGroupByRegex 'me.shedaniel.*' } }
+    maven { url = 'https://www.cursemaven.com'; content { includeGroup 'curse.maven' } }
+    mavenCentral()
+}
+neoForge {
+    version = neo_version
+    runs {
+        client { client(); gameDirectory = file('run-client') }
+        server { server(); programArgument '--nogui' }
+    }
+    mods {
+        powahbeyondnitro { sourceSet sourceSets.main }
+    }
+}
+dependencies {
+    implementation 'maven.modrinth:powah:6.2.10-neoforge'
+    implementation 'me.shedaniel.cloth:cloth-config-neoforge:15.0.140'
+    runtimeOnly 'org.appliedenergistics:guideme:21.1.7'
+    runtimeOnly 'curse.maven:allthemodium-364466:9040574'
+    runtimeOnly 'curse.maven:geckolib-388172:6304958'
+    runtimeOnly 'curse.maven:ato-405593:7027340'
+    runtimeOnly 'curse.maven:patchouli-306770:6842247'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/neoforge.mods.toml') { expand(version: project.version) }
+}
+jar { from('LICENSE'); from('NOTICE.md'); from('licenses') { into 'licenses' } }

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    "c": {
+      "item": "powahbeyondnitro:energy_cell_oblivion"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "n": {
+      "item": "powahbeyondnitro:capacitor_singularity"
+    }
+  },
+  "pattern": [
+    "bnb",
+    "cdc",
+    "bnb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:energy_cell_singularity"
+  }
+}

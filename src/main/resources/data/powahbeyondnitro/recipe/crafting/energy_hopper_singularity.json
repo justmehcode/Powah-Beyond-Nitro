@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:capacitor_singularity"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "h": {
+      "item": "powahbeyondnitro:energy_hopper_oblivion"
+    },
+    "p": {
+      "item": "powah:dielectric_paste"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "cdc",
+    "php"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:energy_hopper_singularity"
+  }
+}

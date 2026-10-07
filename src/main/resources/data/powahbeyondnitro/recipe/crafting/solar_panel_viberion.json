@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:capacitor_viberion"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "e": {
+      "item": "powahbeyondnitro:crystal_viberion"
+    },
+    "p": {
+      "item": "powahbeyondnitro:solar_panel_aurion"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "cdc",
+    "eee"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:solar_panel_viberion"
+  }
+}

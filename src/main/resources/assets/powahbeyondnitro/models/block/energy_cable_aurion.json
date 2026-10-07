@@ -1,0 +1,6 @@
+{
+  "parent": "powah:block/cable",
+  "textures": {
+    "cable": "powahbeyondnitro:block/energy_cable_aurion"
+  }
+}

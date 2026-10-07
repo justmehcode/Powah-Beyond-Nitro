@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="LGPL-3.0-only"
+[[mods]]
+modId="powahbeyondnitro"
+version="${version}"
+displayName="Powah: Beyond Nitro"
+description='''Four endgame Powah tiers: Aurion, Viberion, Oblivion and Singularity. Progress through the Energizing Orb using Allthemodium metals.'''
+[[mixins]]
+config="powahbeyondnitro.mixins.json"
+[[dependencies.powahbeyondnitro]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.powahbeyondnitro]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.251,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.powahbeyondnitro]]
+modId="powah"
+type="required"
+versionRange="[6.2.10]"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.powahbeyondnitro]]
+modId="allthemodium"
+type="required"
+versionRange="[2.0,)"
+ordering="AFTER"
+side="BOTH"

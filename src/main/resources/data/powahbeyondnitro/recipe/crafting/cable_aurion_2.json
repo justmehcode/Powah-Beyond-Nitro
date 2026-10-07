@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:capacitor_aurion"
+    },
+    "d": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "k": {
+      "item": "powahbeyondnitro:crystal_aurion"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "kck",
+    "ddd"
+  ],
+  "result": {
+    "count": 12,
+    "id": "powahbeyondnitro:energy_cable_aurion"
+  }
+}

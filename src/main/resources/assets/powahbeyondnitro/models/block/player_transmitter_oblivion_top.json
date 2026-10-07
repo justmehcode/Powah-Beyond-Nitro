@@ -1,0 +1,6 @@
+{
+  "parent": "powah:block/player_transmitter_top",
+  "textures": {
+    "var": "powahbeyondnitro:block/player_transmitter_oblivion_var"
+  }
+}

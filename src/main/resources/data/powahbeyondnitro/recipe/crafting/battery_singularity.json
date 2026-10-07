@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:battery_oblivion"
+    },
+    "i": {
+      "item": "powahbeyondnitro:capacitor_singularity"
+    },
+    "k": {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    "o": {
+      "item": "powah:dielectric_paste"
+    },
+    "r": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "oko",
+    "iri",
+    "oco"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:battery_singularity"
+  }
+}

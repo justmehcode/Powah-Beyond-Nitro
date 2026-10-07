@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:capacitor_aurion"
+    },
+    "d": {
+      "item": "powah:dielectric_casing"
+    },
+    "g": {
+      "item": "powahbeyondnitro:crystal_aurion"
+    },
+    "i": {
+      "item": "powah:dielectric_paste"
+    },
+    "p": {
+      "item": "powah:thermoelectric_plate"
+    },
+    "t": {
+      "item": "powah:thermo_generator_nitro"
+    }
+  },
+  "pattern": [
+    "igi",
+    "cdc",
+    "ptp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:thermo_generator_aurion"
+  }
+}

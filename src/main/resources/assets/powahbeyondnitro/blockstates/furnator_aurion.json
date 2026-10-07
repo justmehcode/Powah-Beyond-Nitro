@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "powahbeyondnitro:block/furnator_aurion"
+    },
+    "facing=south": {
+      "model": "powahbeyondnitro:block/furnator_aurion",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "powahbeyondnitro:block/furnator_aurion",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "powahbeyondnitro:block/furnator_aurion",
+      "y": 90
+    },
+    "facing=up": {
+      "model": "lollipop:block/empty"
+    },
+    "facing=down": {
+      "model": "lollipop:block/empty"
+    }
+  }
+}

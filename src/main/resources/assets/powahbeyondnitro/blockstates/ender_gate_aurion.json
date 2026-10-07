@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "powahbeyondnitro:block/ender_gate_aurion",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "powahbeyondnitro:block/ender_gate_aurion",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "powahbeyondnitro:block/ender_gate_aurion",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "powahbeyondnitro:block/ender_gate_aurion"
+    },
+    "facing=east": {
+      "model": "powahbeyondnitro:block/ender_gate_aurion",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "powahbeyondnitro:block/ender_gate_aurion",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powah:ender_core"
+    },
+    "i": {
+      "item": "powahbeyondnitro:energy_cable_viberion"
+    },
+    "o": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "oio",
+    "ici",
+    "oio"
+  ],
+  "result": {
+    "count": 4,
+    "id": "powahbeyondnitro:ender_gate_viberion"
+  }
+}

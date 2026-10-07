@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "powahbeyondnitro:block/energy_hopper_viberion",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "powahbeyondnitro:block/energy_hopper_viberion",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "powahbeyondnitro:block/energy_hopper_viberion",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "powahbeyondnitro:block/energy_hopper_viberion"
+    },
+    "facing=east": {
+      "model": "powahbeyondnitro:block/energy_hopper_viberion",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "powahbeyondnitro:block/energy_hopper_viberion",
+      "y": 270
+    }
+  }
+}

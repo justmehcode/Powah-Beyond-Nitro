@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "powahbeyondnitro:capacitor_singularity"
+    },
+    "d": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "t": {
+      "item": "powahbeyondnitro:energy_cable_oblivion"
+    }
+  },
+  "pattern": [
+    "ddd",
+    "tct",
+    "ddd"
+  ],
+  "result": {
+    "count": 6,
+    "id": "powahbeyondnitro:energy_cable_singularity"
+  }
+}

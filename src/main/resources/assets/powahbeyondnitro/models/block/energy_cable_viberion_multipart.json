@@ -1,0 +1,6 @@
+{
+  "parent": "powah:block/cable_multipart",
+  "textures": {
+    "mp": "powahbeyondnitro:block/energy_cable_viberion"
+  }
+}

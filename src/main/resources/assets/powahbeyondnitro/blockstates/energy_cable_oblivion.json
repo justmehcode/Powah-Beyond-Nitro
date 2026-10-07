@@ -1,0 +1,62 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "powahbeyondnitro:block/energy_cable_oblivion"
+      }
+    },
+    {
+      "when": {
+        "north": true
+      },
+      "apply": {
+        "model": "powahbeyondnitro:block/energy_cable_oblivion_multipart"
+      }
+    },
+    {
+      "when": {
+        "east": true
+      },
+      "apply": {
+        "model": "powahbeyondnitro:block/energy_cable_oblivion_multipart",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": true
+      },
+      "apply": {
+        "model": "powahbeyondnitro:block/energy_cable_oblivion_multipart",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "west": true
+      },
+      "apply": {
+        "model": "powahbeyondnitro:block/energy_cable_oblivion_multipart",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": true
+      },
+      "apply": {
+        "model": "powahbeyondnitro:block/energy_cable_oblivion_multipart",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "down": true
+      },
+      "apply": {
+        "model": "powahbeyondnitro:block/energy_cable_oblivion_multipart",
+        "x": 90
+      }
+    }
+  ]
+}

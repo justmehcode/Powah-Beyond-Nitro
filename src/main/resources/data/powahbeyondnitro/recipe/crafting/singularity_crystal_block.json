@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_singularity"
+    },
+    {
+      "item": "powahbeyondnitro:crystal_singularity"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "powahbeyondnitro:singularity_crystal_block"
+  }
+}

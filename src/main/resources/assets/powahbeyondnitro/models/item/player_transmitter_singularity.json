@@ -1,0 +1,7 @@
+{
+  "parent": "powah:item/player_transmitter",
+  "textures": {
+    "var": "powahbeyondnitro:block/player_transmitter_singularity_var",
+    "core": "powah:block/player_transmitter_core"
+  }
+}
