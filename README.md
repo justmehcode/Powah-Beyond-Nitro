@@ -4,7 +4,7 @@ A NeoForge addon that adds four new tiers beyond Nitro: **Aurion, Viberion, Obli
 
 ## Features
 
-- Upgraded versions of every Powah block with a Nitro tier.
+- Upgraded versions of every Powah block.
 - New crystals, capacitors, and batteries.
 - Energizing Orb progression using Allthemodium metals.
 - Familiar Powah crafting recipes and tier-coloured textures.
@@ -30,7 +30,6 @@ On Windows, use `gradlew.bat assemble`. The JAR is generated in `build/libs`.
 ## Notes
 
 - Empty machines and batteries before crafting upgrades.
-- Older builds using the `beyondnitro` mod ID are not automatically migrated. Use a fresh world for this release.
 
 ## Credits and license
 
